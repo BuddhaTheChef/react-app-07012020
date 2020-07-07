@@ -11,10 +11,21 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Link to="/">Home</Link>
+      <nav role="navigation" className="nav-bar">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+    <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/media">Media</Link>
         <Link to="/contact">Contact</Link>
+    </ul>
+  </div>
+</nav>
+     
       </div>
       <Switch>
         <Route component={Home} exact path="/" />
