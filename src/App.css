@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'MeieScript-Regular';
 }
 
 .nav-bar {
@@ -21,12 +22,14 @@ body {
   z-index: 400;
   -webkit-user-select: none;
   user-select: none;
+  font-family: 'Meie Script', cursive;
+  font-size: 30px;
 }
 
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: whitesmoke;
   
   transition: color 0.3s ease;
 }
@@ -64,7 +67,6 @@ body {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #cdcdcd;
   border-radius: 3px;
   
@@ -95,7 +97,7 @@ body {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background:white;
 }
 
 /*
@@ -129,7 +131,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  background: #ededed;
+  background:rgba(255,255,255,0.01);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -194,7 +196,7 @@ position:absolute;
 float:left;
   width:99vw;
   height:96vh;
-  background-color:rgba(0,0,0,0.4);
+  background-color:rgba(0,0,0,0.6);
   z-index:30;
 }
 
@@ -207,6 +209,22 @@ float:left;
 
 .App-link {
   color: #61dafb;
+}
+
+.title {
+  color: whitesmoke; 
+  font-size: 100px;
+  font-family: 'bomb_fontregular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bomb_fontregular';
+  src: url('../src/assets/bombfont_trial-webfont.woff2') format('woff2'),
+       url('../src/assets/bombfont_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @keyframes App-logo-spin {

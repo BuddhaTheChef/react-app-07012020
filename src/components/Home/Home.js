@@ -12,7 +12,7 @@ export default class Home extends Component {
 <div id="video_box">
     <div id="video_overlays">
         <div>
-            <h1>HELLO</h1>
+            <h1 className="title">Sellers Market</h1>
         </div>
     </div>
     <div>
