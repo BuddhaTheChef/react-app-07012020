@@ -15,7 +15,7 @@ export default class Home extends Component {
             <h1 className="title">Sellers Market</h1>
         </div>
     </div>
-    <div>
+    <div style={{overflow:'hidden'}}>
         <video id="player" autoPlay muted loop src={Video1} type="video/mp4">Your browser does not support this streaming content.</video>
     </div>
 </div>

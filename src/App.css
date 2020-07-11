@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'MeieScript-Regular';
+  overflow-x: hidden !important;
 }
 
 .nav-bar {
@@ -195,14 +196,13 @@ code {
 position:absolute;
 float:left;
   width:99vw;
-  height:96vh;
+  height:101vh;
   background-color:rgba(0,0,0,0.6);
   z-index:30;
 }
 
 #player {
-  width: 99vw;
-  height: 102vh;
+  height: 107vh;
   margin-top: -30px;
   margin-bottom: -40px;
 }
