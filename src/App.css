@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'MeieScript-Regular';
   overflow-x: hidden !important;
+  background-color: #282c34;
 }
 
 .nav-bar {
@@ -205,6 +206,10 @@ float:left;
   height: 107vh;
   margin-top: -30px;
   margin-bottom: -40px;
+}
+
+.main-header {
+  color: whitesmoke;
 }
 
 .App-link {

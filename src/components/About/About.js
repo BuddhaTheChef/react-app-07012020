@@ -78,17 +78,10 @@ export default class About extends Component {
 
     return (
       <div>
-        <h1>About</h1>
+        <h1 className="main-header">About</h1>
         
         <DetailsList compact columns={Columns} items={items} />
 
-        {/* {dtsaccounts.map((dtsaccounts) => {
-          return (
-            <div>
-              <p>{dtsaccounts.id}</p>
-            </div>
-          );
-        })} */}
       </div>
     );
   }
