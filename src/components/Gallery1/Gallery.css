@@ -3,8 +3,8 @@
 }
 
 .main-div {
-    background-color: aliceblue;
-    width: 60%;
+    background-color: #282c34;
+    width: 70%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -12,30 +12,42 @@
 }
 
 .top-row {
-    height: 350px;
+    height: 460px;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .second-row {
-    height: 350px;
+    height: 420px;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .third-row {
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .content {
     background-color: aquamarine;
     height: 100%;
     width: 30%;
+}
+
+.content-2 {
+    background-color: aquamarine;
+    height: 100%;
+    width: 47%;
+}
+
+.content-3 {
+    background-color: aquamarine;
+    height: 100%;
+    width: 97%;
 }

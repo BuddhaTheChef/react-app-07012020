@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Gallery.css'
+import '../Gallery1/Gallery.css'
 
 export default class Gallery2 extends Component {
     render() {
@@ -21,30 +21,22 @@ export default class Gallery2 extends Component {
             </div>
   
             <div className="second-row">
-              <div className="content">
+              <div className="content-2">
                   4
               </div>
-              <div className="content">
+              <div className="content-2">
                   5
-              </div>
-              <div className="content">
-                  6
               </div>
             </div>
   
             <div className="third-row">
-              <div className="content">
-                  7
+                <div className="content-3">
+                    7
+                </div>
+          
               </div>
-              <div className="content">
-                  8
-              </div>
-              <div className="content">
-                  9
-              </div>
-            </div>
-
-            <div className="third-row">
+  
+              <div className="top-row">
               <div className="content">
                   7
               </div>
