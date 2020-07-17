@@ -44,6 +44,18 @@ export default class Gallery1 extends Component {
             </div>
           </div>
 
+          <div className="third-row">
+              <div className="content">
+                  7
+              </div>
+              <div className="content">
+                  8
+              </div>
+              <div className="content">
+                  9
+              </div>
+            </div>
+
           </div>
       </div>
     );
