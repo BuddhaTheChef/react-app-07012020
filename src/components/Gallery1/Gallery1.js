@@ -49,6 +49,9 @@ export default class Gallery1 extends Component {
           </div>
 
           </div>
+          <footer>
+            This is a footer
+          </footer>
       </div>
     );
   }

@@ -40,14 +40,24 @@
     width: 30%;
 }
 
+.content { transition: all .2s ease-in-out; }
+.content:hover { transform: scale(1.04); }
+
 .content-2 {
     background-color: aquamarine;
     height: 100%;
     width: 47%;
 }
 
+.content-2 { transition: all .2s ease-in-out; }
+.content-2:hover { transform: scale(1.04); }
+
+
 .content-3 {
     background-color: aquamarine;
     height: 100%;
     width: 97%;
 }
+
+.content-3 { transition: all .2s ease-in-out; }
+.content-3:hover { transform: scale(1.04); }
