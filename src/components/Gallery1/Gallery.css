@@ -4,7 +4,7 @@
 
 .main-div {
     background-color: #282c34;
-    width: 70%;
+    width: 77%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -12,7 +12,7 @@
 }
 
 .top-row {
-    height: 460px;
+    height: 510px;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -38,6 +38,7 @@
     background-color: aquamarine;
     height: 100%;
     width: 30%;
+    border-radius: 4px;
 }
 
 .content { transition: all .2s ease-in-out; }
@@ -47,6 +48,7 @@
     background-color: aquamarine;
     height: 100%;
     width: 47%;
+    border-radius: 4px;
 }
 
 .content-2 { transition: all .2s ease-in-out; }
@@ -57,6 +59,7 @@
     background-color: aquamarine;
     height: 100%;
     width: 97%;
+    border-radius: 4px;
 }
 
 .content-3 { transition: all .2s ease-in-out; }

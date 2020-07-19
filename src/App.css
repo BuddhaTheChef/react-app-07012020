@@ -126,9 +126,9 @@ body {
 #menu
 {
   position: absolute;
-  width: 250px;
+  width: 170px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 40px;
   padding-top: 125px;
   display: flex;
   justify-content: space-around;
