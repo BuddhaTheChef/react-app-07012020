@@ -25,6 +25,10 @@ export default class Home extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Yo Duder!</h1>
         </header>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Yo Duder!</h1>
+        </header>
       </div>
     );
   }
