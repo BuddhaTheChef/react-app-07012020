@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Video1 from "../../assets/sewing-vid.mp4"
 import logo from "../../logo.svg";
 import "../../App.css";
+import Footer from "../Footer/Footer";
 
 export default class Home extends Component {
   render() {
@@ -29,6 +30,7 @@ export default class Home extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Yo Duder!</h1>
         </header>
+        <Footer/>
       </div>
     );
   }
