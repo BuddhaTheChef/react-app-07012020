@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { DetailsList} from "@fluentui/react";
 
 import dtsaccounts from "../../dtsaccounts.json";
+import Footer from "../Footer/Footer";
 
 const Columns = [
   {
@@ -81,7 +82,7 @@ export default class About extends Component {
         <h1 className="main-header">About</h1>
         
         <DetailsList compact columns={Columns} items={items} />
-
+        <Footer/>
       </div>
     );
   }

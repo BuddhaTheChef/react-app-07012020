@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../Gallery1/Gallery.css'
+import Footer from '../Footer/Footer'
 
 export default class Gallery2 extends Component {
     render() {
@@ -49,6 +50,7 @@ export default class Gallery2 extends Component {
             </div>
   
             </div>
+            <Footer/>
         </div>
         )
     }

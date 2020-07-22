@@ -25,14 +25,14 @@ export default class Footer extends Component {
         <a href="#">Contact</a>
     </p>
 
-    <p class="footer-company-name">Company Name © 2015</p>
+    <p class="footer-company-name">Company Name © 2020</p>
 </div>
 
 <div class="footer-center">
 
     <div>
         <i class="fa fa-map-marker"></i>
-        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        <p><span>Fake Place 22 Ave</span> Honolulu, Hawaii</p>
     </div>
 
     <div>

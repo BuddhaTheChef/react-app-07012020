@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Gallery.css";
+import Footer from "../Footer/Footer";
 
 export default class Gallery1 extends Component {
   render() {
@@ -49,9 +50,7 @@ export default class Gallery1 extends Component {
           </div>
 
           </div>
-          <footer>
-            This is a footer
-          </footer>
+          <Footer/>
       </div>
     );
   }
