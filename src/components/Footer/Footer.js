@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import "./Footer.css"
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 
 export default class Footer extends Component {
     render() {
@@ -9,7 +14,7 @@ export default class Footer extends Component {
 
 <div class="footer-left">
 
-    <h3>Company<span>logo</span></h3>
+    <h3>Sellers<span>Market</span></h3>
 
     <p class="footer-links">
         <a href="#" class="link-1">Home</a>
@@ -25,7 +30,7 @@ export default class Footer extends Component {
         <a href="#">Contact</a>
     </p>
 
-    <p class="footer-company-name">Company Name © 2020</p>
+    <p class="footer-company-name">Sellers Market © 2020</p>
 </div>
 
 <div class="footer-center">
@@ -56,10 +61,10 @@ export default class Footer extends Component {
 
     <div class="footer-icons">
 
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="#"><FaFacebookSquare /></a>
+        <a href="#"><FaTwitterSquare/></a>
+        <a href="#"><FaGoogle/></a>
+        <a href="#"><FaInstagram/></a>
 
     </div>
 
