@@ -19,9 +19,9 @@ export default class Footer extends Component {
     <p class="footer-links">
         <a href="#" class="link-1">Home</a>
         
-        <a href="#">Blog</a>
+        <a href="#">Home</a>
     
-        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
     
         <a href="#">About</a>
         
