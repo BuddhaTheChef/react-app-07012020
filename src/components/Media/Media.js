@@ -21,21 +21,20 @@ export default class Media extends Component {
             </div>
           </div>
 
-          <div className="second-row">
-            <div className="content-2">
-                4
+          <div className="top-row">
+            <div className="content">
+                1
             </div>
-            <div className="content-2">
-                5
+            <div className="content">
+                2
+            </div>
+            <div className="content">
+                3
             </div>
           </div>
 
-          <div className="third-row">
-              <div className="content-3">
-                  7
-              </div>
-        
-            </div>
+
+   
 
             <div className="top-row">
             <div className="content">
