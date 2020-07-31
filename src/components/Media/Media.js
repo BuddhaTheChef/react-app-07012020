@@ -11,13 +11,13 @@ export default class Media extends Component {
 
             <div className="top-row-m">
             <div className="content-m">
-                1
+                Instagram Icon
             </div>
             <div className="content-m">
-                2
+                Fb
             </div>
             <div className="content-m">
-                3
+                etc
             </div>
           </div>
 
