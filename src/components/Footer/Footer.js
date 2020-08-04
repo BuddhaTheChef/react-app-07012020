@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 import "./Footer.css"
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
@@ -17,16 +18,17 @@ export default class Footer extends Component {
     <h3>Sellers<span>Market</span></h3>
 
     <p class="footer-links">
-        <a href="#" class="link-1">Home</a>
-        
-        <a href="#">Home</a>
     
-        <a href="#">Blog</a>
+        <Link to="/">Home</Link>
     
         <a href="#">About</a>
+    
+        <a href="#">Gallery 1</a>
         
-        <a href="#">Faq</a>
+        <a href="#">Gallery 2</a>
         
+        <a href="#">Media</a>
+
         <a href="#">Contact</a>
     </p>
 
