@@ -20,16 +20,11 @@ export default class Footer extends Component {
     <p class="footer-links">
     
         <Link to="/">Home</Link>
-    
-        <a href="#">About</a>
-    
-        <a href="#">Gallery 1</a>
-        
-        <a href="#">Gallery 2</a>
-        
-        <a href="#">Media</a>
-
-        <a href="#">Contact</a>
+        <Link to="/about">About</Link>
+        <Link to="/gallery-one">Gallery1</Link>
+        <Link to="/gallery-two">Gallery2</Link>
+        <Link to="/media">Media</Link>
+        <Link to="/contact">Contact</Link>
     </p>
 
     <p class="footer-company-name">Sellers Market © 2020</p>
