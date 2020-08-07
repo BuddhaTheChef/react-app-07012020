@@ -65,7 +65,13 @@
 .content-3 { transition: all .2s ease-in-out; }
 .content-3:hover { transform: scale(1.04); }
 
-
+#content1 {
+    background-image: url(../../assets/newTech2.jpg);
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
 
 .content-m {
     background-color: aquamarine;
