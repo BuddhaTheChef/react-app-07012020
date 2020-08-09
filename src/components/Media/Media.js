@@ -14,10 +14,10 @@ export default class Media extends Component {
             <div id="content1" className="content-m">
             </div>
             <div className="content-m">
-                Fb
+            <div id="content1" className="content-m">
             </div>
             <div className="content-m">
-                etc
+            <div id="content1" className="content-m"></div>
             </div>
           </div>
 
