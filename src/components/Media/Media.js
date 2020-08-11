@@ -23,13 +23,13 @@ export default class Media extends Component {
 
           <div className="top-row-m">
             <div className="content-m">
-                1
+            <div id="content1" className="content-m"></div>
             </div>
             <div className="content-m">
-                2
+            <div id="content1" className="content-m"></div>
             </div>
             <div className="content-m">
-                3
+            <div id="content1" className="content-m"></div>
             </div>
           </div>
 
