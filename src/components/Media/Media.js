@@ -10,11 +10,11 @@ export default class Media extends Component {
                 <h1 className="main-header">Media</h1>
                 <div className="main-div">
                     <div className="top-row-m">
-                        <div id="content1" className="content-m">Header</div>
+                        <div id="content1" className="content-m">Patterns</div>
 
-                        <div id="content1" className="content-m"></div>
+                        <div id="content1" className="content-m">Fabrics</div>
 
-                        <div id="content1" className="content-m"></div>
+                        <div id="content1" className="content-m">Stitching</div>
                     </div>
                     <div className="top-row-m">
                         <div id="content1" className="content-m"></div>
