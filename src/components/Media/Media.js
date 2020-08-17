@@ -24,9 +24,9 @@ export default class Media extends Component {
                         <div id="content1" className="content-m">Recycled</div>
                     </div>
                     <div className="top-row-m">
-                        <div id="content1" className="content-m"></div>
+                        <div id="content1" className="content-m">Accessories</div>
 
-                        <div id="content1" className="content-m"></div>
+                        <div id="content1" className="content-m">Look Book</div>
 
                         <div id="content1" className="content-m"></div>
                     </div>
