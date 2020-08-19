@@ -28,7 +28,7 @@ export default class Media extends Component {
 
                         <div id="content1" className="content-m">Look Book</div>
 
-                        <div id="content1" className="content-m"></div>
+                        <div id="content1" className="content-m">Themes</div>
                     </div>
                 </div>
 
