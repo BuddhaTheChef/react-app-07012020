@@ -13,6 +13,10 @@ export default class About extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1>About</h1>
         </header>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>About</h1>
+        </header>
         <Footer/>
       </div>
     );
