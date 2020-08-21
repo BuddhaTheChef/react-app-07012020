@@ -12,7 +12,7 @@ export default class Media extends Component {
                     <div className="top-row-m">
                         <div id="content1" className="content-m">Patterns</div>
 
-                        <div id="content1" className="content-m">Fabrics</div>
+                        <div id="content2" className="content-m">Fabrics</div>
 
                         <div id="content1" className="content-m">Stitching</div>
                     </div>

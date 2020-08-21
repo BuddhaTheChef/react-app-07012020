@@ -73,6 +73,14 @@
     background-repeat: no-repeat;
 }
 
+#content2 {
+    background-image: url(../../assets/Fabric.jpg);
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .content-m {
     background-color: aquamarine;
     height: 100%;
